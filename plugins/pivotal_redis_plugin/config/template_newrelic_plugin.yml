@@ -20,6 +20,7 @@ agents:
       -
         hostname: localhost 
         hostport: 6379
+        hostpassword: YOUR_PASSWORD_HERE
         # Set "debug: true" to see metrics in stdout instead of sent to New Relic"
         debug: true
         # Set "testrun: true" to use input from local text/html files. Only parses input once, then quits.
